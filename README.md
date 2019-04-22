@@ -4,7 +4,7 @@ Example project for [grails4-primefaces](https://github.com/prominic/grails4-pri
 
 ## Dependencies
 
-This plugin was written and tested with Grails 4.0.0.M2 and Java 8u131.
+This plugin was written and tested with Grails 4.0.0.M2 and Java 8.0.202 (AdoptOpenJDK, HotSpot JVM)
 
 ## Running the Example Interface
 
@@ -77,7 +77,7 @@ logger('demo', DEBUG)
 
 ### Add some test data
 
-Add this code to grails-app/init/grails4/primefaces/demo/BootStrap.groovy  (TODO:  Update this path)
+Add this code to grails-app/init/grails4/primefaces/demo/BootStrap.groovy 
 ```
 ...
  
