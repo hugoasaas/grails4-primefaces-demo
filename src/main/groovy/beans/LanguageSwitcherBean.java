@@ -5,6 +5,13 @@ import java.util.*;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.ManagedProperty;
 
+/**
+* The Bean will work with MessageSourceBean,it provide the language select value for user.
+* And let user can setting the default language in here.
+* source file https://github.com/andreaminnucci/primefaces
+* Modify &amp; Improve: Prominic -Bing Li
+* Data: 2019-04-21
+*/
 @ManagedBean
 public class LanguageSwitcherBean {
 

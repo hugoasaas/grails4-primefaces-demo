@@ -1,5 +1,11 @@
 package com.company.demo
 
+/**
+* This example domain class.
+* Author: Prominic -Bing Li
+* Data: 2019-04-21
+*/
+
 class AnagraphicDomain {
 
     

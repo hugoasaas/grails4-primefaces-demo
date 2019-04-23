@@ -6,6 +6,14 @@ import com.company.demo.*
 import org.primefaces.model.LazyDataModel
 import org.primefaces.model.SortOrder
 import javax.persistence.EntityManagerFactory
+
+/**
+* The is example lazy model for Anagraphic domain class
+* source file https://github.com/andreaminnucci/primefaces
+* Modify &amp; Improve: Prominic -Bing Li
+* Data: 2019-04-21
+*/
+
 public class LazyAnagraphicDataModel extends LazyDataModel<AnagraphicDomain> {
     Logger log = Logger.getLogger(LazyAnagraphicDataModel.class)
             

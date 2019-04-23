@@ -28,6 +28,14 @@ import org.springframework.web.context.request.RequestAttributes
 import javax.faces.event.ActionEvent
 
 import groovy.util.logging.Slf4j
+
+
+/**
+* The is example bean for Anagraphic domain class.
+* source file https://github.com/andreaminnucci/primefaces
+* Modify &amp; Improve: Prominic -Bing Li
+* Data: 2019-04-21
+*/
  
 @ManagedBean(name = "anagraphicMB")
 @ViewScoped

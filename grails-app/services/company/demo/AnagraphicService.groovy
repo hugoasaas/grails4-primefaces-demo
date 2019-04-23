@@ -2,7 +2,11 @@ package com.company.demo
 
 import grails.gorm.transactions.*
 import org.springframework.validation.FieldError
-
+/**
+* This example service ,it provide the basic save, delete and list action.
+* Author: Prominic -Bing Li
+* Data: 2019-04-21
+*/
 @Transactional
 class AnagraphicService {
     static transactional = false
