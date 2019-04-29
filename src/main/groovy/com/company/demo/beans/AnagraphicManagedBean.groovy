@@ -28,7 +28,7 @@ import org.springframework.web.context.request.RequestAttributes
 import javax.faces.event.ActionEvent
 
 import groovy.util.logging.Slf4j
-
+import grails.util.Holders
 
 /**
 * The is example bean for Anagraphic domain class.
@@ -41,6 +41,8 @@ import groovy.util.logging.Slf4j
 @ViewScoped
 @Slf4j
 public class AnagraphicManagedBean implements Serializable {
+
+     def servletContext =Holders.getServletContext()
         
     @PostConstruct
     public void init() {
@@ -59,11 +61,23 @@ public class AnagraphicManagedBean implements Serializable {
 
     private String deleteId;
 
+    private String theme;
+
+    public String getTheme(){
+        return this.theme
+    }
+
+    public void setTheme(String theme){
+        println "set theme:"+theme
+        servletContext.setAttribute("primeface_theme",theme)
+        this.theme=theme
+    }
+
     public String getDeleteId(){
         return this.deleteId
     }
 
-    public String setDeleteId(String id){
+    public void setDeleteId(String id){
         this.deleteId=id
     }
 
