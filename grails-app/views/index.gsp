@@ -1,3 +1,4 @@
+<%-- Default index page --%>   
 <!doctype html>
 <html>
 <head>

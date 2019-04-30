@@ -1,3 +1,4 @@
+<%-- Default error page --%>    
 <!doctype html>
 <html>
     <head>

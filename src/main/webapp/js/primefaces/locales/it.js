@@ -1,3 +1,4 @@
+//primeface  client it language defined 
 PrimeFaces.locales ['it'] = {
     closeText: 'Chiudi',
     prevText: 'Precedente',

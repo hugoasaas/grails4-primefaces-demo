@@ -1,5 +1,9 @@
 package grails4.primefaces.demo
 import com.company.demo.AnagraphicDomain
+
+/**
+* The file let you can add some code before the application starting. 
+*/
 class BootStrap {
 
     def init = { servletContext ->

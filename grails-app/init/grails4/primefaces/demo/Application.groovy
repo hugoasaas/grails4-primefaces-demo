@@ -5,6 +5,10 @@ import grails.boot.config.GrailsAutoConfiguration
 
 import groovy.transform.CompileStatic
 
+/**
+* The file defined the  configuration value with runtime 
+*/
+
 @CompileStatic
 class Application extends GrailsAutoConfiguration {
     static void main(String[] args) {

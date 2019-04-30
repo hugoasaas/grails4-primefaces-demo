@@ -1,3 +1,4 @@
+<%-- Default not found page --%>   
 <!doctype html>
 <html>
     <head>

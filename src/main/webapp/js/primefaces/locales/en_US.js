@@ -1,3 +1,4 @@
+//primeface  client english language defined 
 PrimeFaces.locales ['en_US'] = {
     closeText: 'Close',
     prevText: 'Previous',

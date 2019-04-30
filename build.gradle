@@ -1,3 +1,4 @@
+//Default build file ,auto generate by grails framework.
 buildscript {
     repositories {
         mavenLocal()
