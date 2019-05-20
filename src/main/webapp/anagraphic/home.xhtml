@@ -23,29 +23,11 @@
             </p:selectOneMenu> 
 
             <p:outputLabel for="template" value="Theme:" />
-        <p:themeSwitcher id="template" style="width:165px"  value="#{anagraphicMB.theme}" >
-            <f:selectItem itemLabel="Choose Theme" itemValue="" />
-            <f:selectItem itemLabel="After dark" itemValue="afterdark" />
-            <f:selectItem itemLabel="After noon" itemValue="afternoon" />
-            <f:selectItem itemLabel="After work" itemValue="afterwork" />
-            <f:selectItem itemLabel="All-themes" itemValue="all-themes" />
-            <f:selectItem itemLabel="aristo" itemValue="aristo" />
-            <f:selectItem itemLabel="black-tie" itemValue="black-tie" />
-            <f:selectItem itemLabel="blitzer" itemValue="blitzer" />
-            <f:selectItem itemLabel="bluesky" itemValue="bluesky" />
-            <f:selectItem itemLabel="bootstrap" itemValue="bootstrap" />
-            <f:selectItem itemLabel="cruze" itemValue="cruze" />
-            <f:selectItem itemLabel="dark-hive" itemValue="dark-hive" />
-            <f:selectItem itemLabel="delta" itemValue="delta" />
-            <f:selectItem itemLabel="cruze" itemValue="cruze" />
-            <f:selectItem itemLabel="dot-luv" itemValue="dot-luv" />
-            <f:selectItem itemLabel="eggplant" itemValue="eggplant" />
-            <f:selectItem itemLabel="excite-bike" itemValue="excite-bike" />
-            <f:selectItem itemLabel="eggplant" itemValue="eggplant" />
-            <f:selectItem itemLabel="flick" itemValue="flick" />
-            <f:selectItem itemLabel="glass-x" itemValue="glass-x" />
-            <f:selectItem itemLabel="home" itemValue="home" />
-        </p:themeSwitcher>
+
+            <p:themeSwitcher id="template" style="width:165px"  value="#{themeMB.theme}" >
+                <f:selectItem itemLabel="Choose Theme" itemValue="#{null}" />
+                <f:selectItems value="#{themeMB.themeList}" var="theme" itemLabel="#{theme}" itemValue="#{theme}" />
+            </p:themeSwitcher>
         </p:panelGrid>
     </h:form>
                 

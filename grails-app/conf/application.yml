@@ -137,5 +137,6 @@ environments:
 grails:
     plugins:
         primefaces:
-                beans:
-                   packages: com.company.demo.beans,demo.beans,beans
+            beans:
+               packages: com.company.demo.beans,demo.beans,beans
+            theme: afterdark
